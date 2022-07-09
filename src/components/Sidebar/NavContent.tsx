@@ -11,7 +11,7 @@ import { useWeb3Context } from "src/hooks/web3Context";
 import { BondDiscount } from "src/views/Bond/components/BondDiscount";
 import { useLiveBonds } from "src/views/Bond/hooks/useLiveBonds";
 
-import { ReactComponent as OlympusIcon } from "../../assets/icons/olympus-nav-header.svg";
+import { ReactComponent as AfridaoIcon } from "../../assets/icons/afridao-nav-header.svg";
 import WalletAddressEns from "../TopBar/Wallet/WalletAddressEns";
 
 const PREFIX = "NavContent";
@@ -35,11 +35,11 @@ const NavContent: React.VFC = () => {
       <Box className="dapp-sidebar-inner" display="flex" justifyContent="space-between" flexDirection="column">
         <div className="dapp-menu-top">
           <Box className="branding-header">
-            <Link href="https://olympusdao.finance" target="_blank">
+            <Link href="https://afridao.com" target="_blank">
               <SvgIcon
                 color="primary"
                 viewBox="0 0 151 100"
-                component={OlympusIcon}
+                component={AfridaoIcon}
                 style={{ minWidth: "151px", minHeight: "98px", width: "151px" }}
               />
             </Link>
